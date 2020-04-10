@@ -1,0 +1,230 @@
+
+/**************<a>样式***************/
+.operating{color:#1d73c5;}
+.operatingP{color:#1d73c5;text-decoration:underline;}
+.operatingB{color:#707070;}
+
+/******************表格边框样式**************/
+.table-bordered>thead>tr>th,.table-bordered>thead>tr>td {
+	border-bottom-width: 0!important;
+}
+
+/**************表格底部栏样式***************/
+.formFooter_style{ 
+	width:100%;
+	border:1px solid #ccc;
+	border-top:0;
+	padding:2px 0px; 
+	color:#666666; 
+	background: linear-gradient(rgba(255,0,0,0), rgba(229,229,229,1)); /* 标准的语法 */
+	font-family:"新宋体";
+	position: relative;
+	line-height:30px;
+	top:-20px;}
+.jump{margin-left:0px;}
+.jump_page{width:50px;text-align:center;margin:0 2px!important;}
+.jump_go{
+	width:30px;
+	margin-left:0px;
+	margin-bottom:auto;
+	margin-top:auto;
+	background: #2a8bcc!important;
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#3b98d6),to(#197ec1))!important;
+    background-image: -webkit-linear-gradient(top,#3b98d6,0%,#197ec1,100%)!important;
+    background-image: -moz-linear-gradient(top,#3b98d6 0,#197ec1 100%)!important;
+    background-image: linear-gradient(to bottom,#3b98d6 0,#197ec1 100%)!important;
+    background-repeat: repeat-x!important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b98d6',endColorstr='#ff197ec1',GradientType=0)!important;  
+	border:0px;
+	text-align:center;
+	color:#FFF;
+	border-radius:3px; 
+	-moz-border-radius:3px; 
+	-webkit-border-radius:3px;}
+	
+/**************弹出框符样式***************/
+.add_title{
+	padding-left:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #dddddd;
+    background: #2a8bcc!important;
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#ffffff),to(#ededed))!important;
+    background-image: -webkit-linear-gradient(top,#ffffff,0%,#ededed,100%)!important;
+    background-image: -moz-linear-gradient(top,#ffffff 0,#ededed 100%)!important;
+    background-image: linear-gradient(to bottom,#ffffff 0,#ededed 100%)!important;
+    background-repeat: repeat-x!important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#ededed',GradientType=0)!important;
+	height:30px; line-height:30px;
+	color:#333333;
+	width:100%}
+.asterisk{color:#f63;}
+.percent{margin-left:6px;line-height:30px;}
+.percent-value{margin-left:30px;line-height:30px;color:#d15b47;}
+.Button_box{margin-bottom:10px;text-align:center;}
+.remarks{min-height:80px;width:66.6666%;}
+
+/*******************责任列表标题样式********************/
+.liability_title{
+	height:34px; 
+	border-bottom:1px solid #dddddd; 
+	line-height:34px;
+	padding:0px 20px;
+	background: #2a8bcc!important;
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#ffffff),to(#ededed))!important;
+    background-image: -webkit-linear-gradient(top,#ffffff,0%,#ededed,100%)!important;
+    background-image: -moz-linear-gradient(top,#ffffff 0,#ededed 100%)!important;
+    background-image: linear-gradient(to bottom,#ffffff 0,#ededed 100%)!important;
+    background-repeat: repeat-x!important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#ededed',GradientType=0)!important;
+	
+}
+.liability_f{ float:left; width:86px;text-align:right;margin:0;}
+
+
+/**************销售产品模板添加/编辑/查看样式***************/
+.Ptemplate_select_list { width:680px;overflow: hidden; margin-left:auto;margin-right:auto;}
+.remove_title{
+	height:40px;
+	border:1px solid #ddd;
+	line-height:40px;
+	background-color: #f8f8f8;
+	text-align:center;
+	margin:-1px -2px -1px -1px;}
+.remove_select{width:180px; min-height:280px; border:1px solid #ddd; margin:-1px -2px -1px -1px!important; }
+
+/**************销售产品计划添加/编辑/查看样式***************/
+.add_plan{margin-top:60px;}
+.plan_input1{
+	width:100%;
+	border:none!important;
+	margin:0!important;important;
+	
+	text-align:center;
+	background:#f9f9f9!important;}
+.plan_input2{
+	width:100%;
+	border:none!important;
+	margin:0!important;important;	
+	text-align:center;
+	background:#fff!important;}
+
+	
+/*******************产品实例搜索框样式********************/
+.Pexample_f{ float:left; width:60px;text-align:right;margin:0;}	
+
+/*******************产品实例-添加表格样式********************/
+/*.Pexample_add_name{
+	height:30px; 
+	line-height:30px; 
+	font-size:14px; 
+	padding:0px 20px;
+	background: #2a8bcc!important;
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#ffffff),to(#ededed))!important;
+    background-image: -webkit-linear-gradient(top,#ffffff,0%,#ededed,100%)!important;
+    background-image: -moz-linear-gradient(top,#ffffff 0,#ededed 100%)!important;
+    background-image: linear-gradient(to bottom,#ffffff 0,#ededed 100%)!important;
+    background-repeat: repeat-x!important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#ededed',GradientType=0)!important;}*/
+
+
+.exampleAdd_btn{margin-bottom:10px;}
+.exampleAdd_table{border:0!important; background-color:#fff; text-align:center;}
+.exampleAdd_Bigtable{width:82.8888%!important;margin-left:auto; margin-right:auto; margin-bottom:1px;}
+.exampleAdd_table-bordered{border:1px solid #ddd!important; text-align:center;}
+.exampleAdd_table_btnBox{width:62.7777%!important;margin-left:auto; margin-right:auto; margin-bottom:40px;}
+.exampleAdd_table_btn{ margin-right:0!important; padding:0!important;}
+
+.exampleAdd_a{margin-left:10px;}
+/*******************基础产品审核样式********************/
+.Breview_sort_style{margin-top:0;}
+.dataTables_paginate_Bproduct{ text-align: center!important;}
+.dataTables_paginate_Bproduct .pagination{margin: 0 12px 12px;}
+.Bproduct_p{text-align:left; margin:10px; color:#666; }
+
+
+/*******************销售产品模板审核样式********************/
+.Ptemplate_review{margin-top:20px;margin-bottom:20px;}	
+
+
+/*******************订单详情样式********************/
+.detailed_style .title_nameA{ 
+	height:34px; 
+	line-height:34px; 
+	font-size:16px; 
+	padding:0px 20px;
+	background: #2a8bcc!important;
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#ffffff),to(#ededed))!important;
+    background-image: -webkit-linear-gradient(top,#ffffff,0%,#ededed,100%)!important;
+    background-image: -moz-linear-gradient(top,#ffffff 0,#ededed 100%)!important;
+    background-image: linear-gradient(to bottom,#ffffff 0,#ededed 100%)!important;
+    background-repeat: repeat-x!important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#ededed',GradientType=0)!important;
+}
+.order_table_td{background-color:#f9f9f9;word-wrap:break-word; word-break:break-all;vertical-align:middle; font-family:"新宋体"; text-align:left;color:#393939;}
+.order_table_td:hover{background-color: #f5f5f5;}
+.detailed_style .product_style{margin-bottom:0!important;border-bottom:0px!important;}
+.detailed_style .title_name{border-bottom:0px!important;}
+
+
+/*******************保单详情样式********************/
+.Policy_title{font-size:12px;color:#f33;line-height:34px;float:right;}
+.order_table_td1{background-color:#fff!important;}
+
+
+/*渠道管理添加样式*/
+.channel_add_input{width:100px;text-align:center;margin:0 2px!important;}
+
+/*授权管理样式*/
+.channel_form_l{float:left;margin-bottom:auto;margin-top:auto;width:20.%;}
+.channel_form_r{float:right;margin-bottom:auto;margin-top:auto;width:20.%;}
+
+/*******************报表管理样式********************/
+/*.orderF_table_td{
+	background-color:#f2f2f2;
+	word-wrap:break-word;
+	word-break:break-all;
+	vertical-align:middle; 
+	font-family:"新宋体";
+	text-align:center;
+	
+	color:#393939;}
+.orderF_table_td:hover{background-color: #f5f5f5;}*/
+
+
+.Form_f{ float:left; width:140px;text-align:right;margin:0; line-height:30px;}
+
+/*用户管理添加样式*/
+.user_add_name{margin-left:10px;}
+
+/*角色列表样式*/
+.role_addBox{ margin-top:20px;}
+
+/*添加人员设置样式*/
+.memberAdd_select_list{margin-top:0px; width:200px;text-align:center; overflow:hidden; margin-left:10px; margin-right:auto;}
+.p_select_list .memberAdd_Switching_btn{ width:80px; margin:0px 30px; float:left}
+.p_select_list .memberAdd_Switching{ display:block; margin:20px 0px}
+.p_select_list .memberAdd_Switching .btn{ width:80px;}
+
+
+/*权限*/
+.Menu_permission-list{ border:solid 1px #eee; margin:10px}
+.Menu_permission-list > dt{ background-color: #59BD1E;padding:5px 10px; color:#FFF}
+.Menu_permission-list > dd{ padding:10px;}
+.Menu_permission-list .permission-list2 > dt{ color:#ffffff; background-color: #FCA31D; margin-right:10px;}
+.Menu_permission-list > dd > dl{ padding:10px 0}
+.Menu_permission-list > dd > dl > dt{ display:inline-block;float:left;white-space:nowrap; width:140px; padding:5px}
+.Menu_permission-list > dd > dl > dd{ margin-left:100px;}
+.Menu_permission-list > dd > dl > dd > label{ padding-right:10px; padding-left:10px}
+.Menu_permission-list .permission-list2 > dt input[type=checkbox].ace+.lbl::before,.permission-list .permission-list2 > dt input[type=radio].ace+.lbl::before{ border:0px}
+
+
+/*消息模板-添加*/
+.p_select_list .M_left_produt{ float:left; }
+.p_select_list .M_right_product{ float:left; }
+.sort_style_add li textarea.M_form-control{ width:100%; min-height:240px; margin-left:0!important; resize:none;}
+.p_select_list .M_Switching_btn{ width:60px; margin:0px 20px; float:left}
+.p_select_list .M_Switching{ display:block; margin-top:40px; }
+.p_select_list .M_Switching .btn{ width:60px;}
+
+.M_remove_select{width:100%; min-height:240px; border:1px solid #ddd; margin-left:0!important; text-align:left; }
+.M_option{margin-left:10px; margin-bottom:10px;}

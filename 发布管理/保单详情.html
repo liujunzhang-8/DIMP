@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="../css/style_add.css" rel="stylesheet" /> 
+        <link href="../css/style.css" rel="stylesheet" />       
+        <link href="../assets/css/codemirror.css" rel="stylesheet">
+        <link href="../assets/css/ace.min.css" rel="stylesheet" />
+        <link href="../font/css/font-awesome.min.css" rel="stylesheet" />
+        <!--[if lte IE 8]>
+		  <link rel="stylesheet" href="../assets/css/ace-ie.min.css" />
+		<![endif]-->
+		<script src="../js/jquery-1.9.1.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+		<script src="../assets/js/typeahead-bs2.min.js"></script> 
+        <script src="../js/H-ui.js" type="text/javascript" ></script>      	
+		<script src="../assets/js/jquery.dataTables.min.js"></script>
+		<script src="../assets/js/jquery.dataTables.bootstrap.js"></script>
+        <script src="../assets/layer/layer.js" type="text/javascript" ></script>          
+        <script src="../assets/laydate/laydate.js" type="text/javascript"></script>
+        <script src="../assets/js/jquery.easy-pie-chart.min.js"></script>
+        <script src="../js/lrtk.js" type="text/javascript" ></script>
+		<title>保单详情</title>
+</head>
+
+<body>
+<div class="margin clearfix">
+	<div class="Order_Details_style">
+
+		<div class="detailed_style">
+			<!--保单信息-->
+			<div class="product_style">
+				<div class="title_nameA">保单信息<span class="Policy_title">以下金额单位未特别注明默认为人民币元</span></div>
+			</div>
+				
+				<div class="sort_list">
+					<table class="table table-striped table-bordered table-hover" id="sample-table">
+						<thead>
+							<tr>						
+								<th width="180px">保单号</th>									
+								<td class="order_table_td" width="30%" >1000002335668</td>	
+								<th width="180px">生效日期</th>	
+								<td class="order_table_td" width="30%" >2017-11-11</td>		
+							</tr>
+
+							<tr>						
+								<th width="180px">投保单号</th>	
+								<td class="order_table_td" width="30%" >33919893289</td>	
+								<th width="180px">保险合同期满日</th>	
+								<td class="order_table_td" width="30%" >2018-11-11</td>	
+								
+							</tr>
+
+							<tr>						
+								<th width="180px">保单状态</th>	
+								<td class="order_table_td" width="30%" >待签单</td>	
+								<th width="180px">投保人</th>	
+								<td class="order_table_td" width="30%" >周安</td>	
+								
+							</tr>
+
+							<tr>						
+								<th width="180px">性别</th>	
+								<td class="order_table_td" width="30%" >男</td>	
+								<th width="180px">证件</th>	
+								<td class="order_table_td" width="30%" >身份证  265***********9876</td>	
+								
+							</tr>
+
+							<tr>						
+								<th width="180px">联系电话</th>	
+								<td class="order_table_td" width="30%" >152****6329</td>	
+								<th width="180px">联系地址</th>	
+								<td class="order_table_td" width="30%" >安徽省 合肥市 蜀山区潜山路</td>	
+								
+							</tr>
+							
+							<tr>						
+								<th width="180px">电子邮箱</th>	
+								<td class="order_table_td" width="30%" >********@163.com</td>	
+								<th width="180px">邮政编码</th>	
+								<td class="order_table_td" width="30%" >231420</td>	
+								
+							</tr>
+						</thead>
+					</table>
+				</div>
+			
+	 
+
+			<!--被保险人信息-->
+			<div class="product_style">
+				<div class="title_nameA">被保险人信息</div>
+			</div>		
+			<div class="sort_list">
+				<table class="table table-striped table-bordered table-hover" id="sample-table">
+					<thead>
+						<tr>						
+							<th width="300px">被保险人姓名</th>
+							<th width="190px">性别</th>
+							<th width="190px">出生日期</th>
+							<th width="190px">证件类型</th>
+							<th width="205px">证件号码</th>						
+						</tr>
+					</thead>
+					<tbody>
+						<tr>									
+							<td>周安</td>
+							<td>男</td>
+							<td>1994-11-15</td>
+							<td>身份证</td>
+							<td>265***********9876</td>																	
+						</tr>														
+					</tbody>
+				</table>											
+
+			</div>
+			
+			<!--受益人信息-->
+			<div class="product_style">
+				<div class="title_nameA">受益人信息</div>
+			</div>		
+			<div class="sort_list">
+				<table class="table table-striped table-bordered table-hover" id="sample-table">
+					<thead>
+						<tr>						
+							<th width="150px">受益人姓名</th>
+							<th width="150px">与被保险人关系</th>
+							<th width="190px">受益顺序</th>
+							<th width="190px">受益份额</th>
+							<th width="190px">受益人证件类型</th>
+							<th width="205px">证件号码</th>						
+						</tr>
+					</thead>
+					<tbody>
+						<tr>									
+							<td>法定</td>
+							<td></td>
+							<td>1</td>
+							<td>100%</td>
+							<td></td>
+							<td></td>																	
+						</tr>														
+					</tbody>
+				</table>											
+
+			</div>
+			
+			<!--产品信息-->
+			<div class="product_style">
+				<div class="title_nameA">产品信息(个人终身寿险A款)</div>
+			</div>		
+			<div class="sort_list">
+				<table class="table table-striped table-bordered table-hover" id="sample-table">
+					<thead>
+						<tr>						
+							<th width="160px">基础产品名称</th>
+							<th width="110px">责任名称</th>
+							<th width="185px">适用条款</th>
+							<th width="90px">保险期间</th>
+							<th width="90px">等待期天数</th>
+							<th width="90px">免额天数</th>	
+							<th width="90px">免赔额</th>
+							<th width="90px">给付比例</th>
+							<th width="90px">保额</th>
+							<th width="90px">保费</th>							
+						</tr>
+					</thead>
+					<tbody>
+						<tr>									
+							<td>个人意外伤害保险B款</td>
+							<td>意外伤害责任</td>
+							<td><a class="operatingP">个人意外伤害保险B款条款</a></td>
+							<td>10</td>
+							<td>90</td>
+							<td></td>
+							<td>2000</td>
+							<td>0.5</td>
+							<td>50000,00</td>
+							<td>400</td>
+						</tr>
+
+						<tr>									
+							<td>附加个人重大疾病保险</td>
+							<td>重大疾病责任</td>
+							<td><a class="operatingP">附加个人重大疾病保险条款</a></td>
+							<td>10</td>
+							<td>90</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>100000,00</td>
+							<td>300</td>
+						</tr>
+						
+						<tr>									
+							<td class="order_table_td1" colspan="10" ></td>
+						</tr>
+						
+						<thead>
+							<tr>						
+								<th >当前保单利息(现金价值)</th>									
+								<td class="order_table_td" colspan="9" >2655.28</td>		
+							</tr>							
+						</thead>
+						
+						<tr>									
+							<td class="order_table_td1" colspan="10"></td>
+						</tr>
+						
+						<thead>
+							<tr>						
+								<th >特别约定</th>									
+								<td class="order_table_td" colspan="9">
+									<p>1.XXX</p>
+									<p>2.XXX</p>
+									<p>3.XXX</p>
+								</td>		
+							</tr>	
+							
+							<tr>						
+								<th >增值服务</th>									
+								<td class="order_table_td" colspan="9">酒后代驾</td>		
+							</tr>
+						</thead>
+						
+					</tbody>
+				</table>											
+
+			</div>
+	
+	
+			<!--缴费信息-->
+			<div class="product_style">
+				<div class="title_nameA">缴费信息</div>
+			</div>
+				
+				<div class="sort_list">
+					<table class="table table-striped table-bordered table-hover" id="sample-table">
+						<thead>
+
+							<tr>						
+								<th width="180px">缴费方式</th>									
+								<td class="order_table_td" width="30%" >年缴</td>	
+								<th width="180px">缴至日期</th>	
+								<td class="order_table_td" width="30%" >2018-11-11</td>		
+							</tr>
+
+							<tr>						
+								<th width="180px">缴费年限</th>	
+								<td class="order_table_td" width="30%" >10年</td>	
+								<th width="180px">缴费金额</th>	
+								<td class="order_table_td" width="30%" >6522.28</td>	
+								
+							</tr>
+
+						</thead>
+					</table>
+				</div>
+				
+				<!--销售信息-->
+			<div class="product_style">
+				<div class="title_nameA">销售信息</div>
+			</div>
+				
+				<div class="sort_list">
+					<table class="table table-striped table-bordered table-hover" id="sample-table">
+						<thead>
+							<tr>						
+								<th width="180px">服务人员工号</th>									
+								<td class="order_table_td" width="30%" >E09003</td>	
+								<th width="180px">服务人员姓名</th>	
+								<td class="order_table_td" width="30%" >胡吉</td>		
+							</tr>
+
+							<tr>						
+								<th width="180px">联系电话</th>	
+								<td class="order_table_td" width="30%" ></td>	
+								<th width="180px">销售机构</th>	
+								<td class="order_table_td" width="30%" ></td>	
+								
+							</tr>
+							
+							<tr>						
+								<th width="180px">销售机构地址</th>	
+								<td class="order_table_td" colspan="3">安徽省 合肥市 蜀山区 金融一街</td>	
+								
+								
+							</tr>
+
+						</thead>
+					</table>
+				</div>
+				
+				<!--活动信息-->
+			<div class="product_style">
+				<div class="title_nameA">活动信息</div>
+			</div>
+				
+				<div class="sort_list">
+					<table class="table table-striped table-bordered table-hover" id="sample-table">
+						<thead>
+							<tr>						
+								<th width="180px">活动名称</th>									
+								<td class="order_table_td" width="30%" >双11节</td>	
+								<th width="180px">开始日期</th>	
+								<td class="order_table_td" width="30%" >2017-11-11</td>		
+							</tr>
+						
+							<tr>						
+								<th width="180px">活动描述</th>	
+								<td class="order_table_td" colspan="3">双11节,半价出售</td>	
+								
+								
+							</tr>
+
+						</thead>
+					</table>
+				</div>
+  		
+	
+
+			<div class="Button_box">				
+				<button class="btn btn-default radius" type="button">&nbsp;关闭&nbsp;</button>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

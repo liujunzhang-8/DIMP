@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+        <title>用户管理</title>
+		<link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../css/style_add.css"/>
+        <link href="../css/style.css" rel="stylesheet"/>       
+        <link href="../assets/css/codemirror.css" rel="stylesheet"/>
+        <link href="../assets/css/ace.min.css" rel="stylesheet"/>
+        <link href="../font/css/font-awesome.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+        <!--[if lte IE 8]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+		<script src="../js/jquery-1.9.1.min.js"></script>
+		<script src="../assets/js/typeahead-bs2.min.js"></script>   
+        <script src="../js/lrtk.js" type="text/javascript" ></script>		
+		<script src="../assets/js/jquery.dataTables.min.js"></script>
+		<script src="../assets/js/jquery.dataTables.bootstrap.js"></script>
+        <script src="../assets/layer/layer.js" type="text/javascript" ></script>             		
+	</head>
+	
+	<body>
+		<div class="page-content clearfix">
+			<div id="brand_style">
+					<div class="search_style">
+						<ul class="search_content clearfix">
+							
+							<li>
+								<label class="l_f">保单编号</label>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+							</li>
+					
+							<li><label class="l_f">状态</label>
+								&nbsp;&nbsp;&nbsp;
+								<select style="height: 24px;width: 100px;padding: 1px;">
+									<option value="请选择">请选择</option>
+									<option value="请选择">已回执</option>
+									<option value="请选择">未回执</option>
+									
+								</select>
+								
+							</li>
+							<li>
+								<label class="l_f">客户签收日期</label>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+							</li>
+						</ul>
+						<ul class="search_content clearfix">
+							
+							<li><label class="l_f">收到回执日期</label>
+								&nbsp 
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+							<li><label class="l_f">回执未回日期</label>
+								&nbsp;&nbsp;
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+							<li><label class="l_f">照会发送日期1</label>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+					
+						</ul>
+						<ul class="search_content clearfix">
+							
+							<li><label class="l_f">照会发送日期2</label>
+						
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+							<li><label class="l_f">照会发送日期3</label>
+								
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+							<li><label class="l_f">投保人</label>
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+					
+						</ul>
+						<ul class="search_content clearfix">
+							
+							<li><label class="l_f">被保人</label>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+							<li><label class="l_f">保单生效日</label>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+							<li><label class="l_f">保单签发日</label>
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+					
+						</ul>
+						<ul class="search_content clearfix">
+							
+							<li><label class="l_f">录入日期</label>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+							<li><label class="l_f">录入姓名</label>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+							<li><label class="l_f">复核日期</label>
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+							<li>
+								<span class="l_f">
+									<a style="background: #006dcc;color: #fff;padding: 4px 15px;border-radius:2px"   >CSV导出</a>											
+								</span>	
+								
+							</li>
+					
+						</ul>
+						<ul class="search_content clearfix">
+							
+							<li><label class="l_f">复核人姓名</label>
+								&nbsp;&nbsp;&nbsp;&nbsp;
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+							<li><label class="l_f">复核状态</label>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<input style="height: 24px;" name="" type="text"  class="text_add" placeholder=""/>
+								
+							</li>
+							<li><label class="l_f">回执渠道</label>
+								<select style="height: 24px;width: 100px;padding: 1px;">
+									<option value="请选择">请选择</option>
+									<option value="请选择">打印平台</option>
+								
+								</select>
+								
+							</li>
+							<li>
+								<span class="l_f">
+									<a style="background: #006dcc;color: #fff;padding: 4px 15px;border-radius:2px"   >查找</a>											
+								</span>	
+								
+							</li>
+							
+					
+						</ul>
+					
+					</div>
+				<div class="sort_style">
+				
+				<div class="sort_list">
+					<table class="table table-striped table-bordered table-hover" id="sample-table">
+						<thead>
+							<tr>
+						
+								<th >保单编号</th>
+								<th >状态</th>
+								<th >客户签收日期</th>
+								<th >收到回执日期</th>
+								<th >回执未回</th>
+								<th >照会发送日期1</th>
+								<th >照会发送日期2</th>
+								<th >照会发送日期3</th>
+								<th >投保人</th>
+								<th >被保人</th>
+								<th >保单生效日</th>
+								<th >保单签发日</th>
+								<th >录入日期</th>
+								<th >录入人姓名</th>
+								<th >复核日期</th>
+								<th >复核人姓名</th>
+								<th >复核状态</th>
+								<th >回执渠道</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>01114519845123</td>
+								<td>已回执</td>
+								<td>2007/09/07</td>
+								<td>2007/11/08</td>
+								<td>0（天）</td>
+								<td>2007/11/08</td>
+								<td></td>
+								<td></td>
+								<td>李先森</td>
+								<td>李先森</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+								<tr>
+								<td>01114519845123</td>
+								<td>已回执</td>
+								<td>2007/09/07</td>
+								<td>2007/11/08</td>
+								<td>0（天）</td>
+								<td>2007/11/08</td>
+								<td></td>
+								<td></td>
+								<td>李先森</td>
+								<td>李先森</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+								<tr>
+								<td>01114519845123</td>
+								<td>已回执</td>
+								<td>2007/09/07</td>
+								<td>2007/11/08</td>
+								<td>0（天）</td>
+								<td>2007/11/08</td>
+								<td></td>
+								<td></td>
+								<td>李先森</td>
+								<td>李先森</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							
+							
+							
+						</tbody>
+					</table>
+					<div class="formFooter_style" id="formFooterstyle"> 
+						<div class="row"> 						
+							<div class="col-sm-13">
+								<div id="sample-table_length" class="dataTables_length">
+									<label>
+									&nbsp;&nbsp;每页显示条数：
+									<select class="" name="sample-table_length" aria-controls="sample-table"><option  value="1">10</option><option  value="2">20</option><option value="3">30</option></select>
+									</label>
+								</div>						
+							</div>										
+							<div class="col-sm-14">
+								<div id="sample-table_paginate" class="dataTables_paginate paging_bootstrap">
+									<ul class="pagination">
+										
+										<li class="prev disabled"><a href="#">上一页</a></li>
+										<li class="active"><a href="#"></a></li>
+										<li class="next disabled"><a href="#">下一页</a></li>
+										
+										<li class="jump">&nbsp;第1/1页,共2条匹配记录</li>
+										<li class="jump">																					
+											转至第<input name="" type="text"  class="jump_page" placeholder="" />页
+											<button type="button" class="jump_go">GO</button>
+																						
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					
+					</div>
+						
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
+				
+	 <!--*************添加/编辑/查看用户****************-->
+	 <div class="sort_style_add margin" id="service_style_add" style="display:none">
+
+		<div class="">
+		<ul>
+		
+			<li><label class="col-sm-2 control-label no-padding-right"><i class="asterisk">*</i>姓名：</label><div class="col-sm-9"><input name="" type="text"  placeholder=""></div></li>
+			<li><label class="col-sm-2 control-label no-padding-right"><i class="asterisk">*</i>手机号码：</label><div class="col-sm-9"><input name="" type="text"  placeholder=""></div></li>
+			<li><label class="col-sm-2 control-label no-padding-right"><i class="asterisk">*</i>联系地址：</label><div class="col-sm-9"><input name="" type="text"  placeholder=""></div></li>
+			<li><label class="col-sm-2 control-label no-padding-right"><i class="asterisk">*</i>备注：</label><div class="col-sm-9"><input name="" type="text"  placeholder=""></div></li>
+			
+			
+		</ul>
+		</div>
+	</div>
+					
+	</body>
+</html>
+<script>
+/*用户-添加/编辑/查看*/
+function service_(obj,type){
+	var _this = obj;
+	var pageTitle;
+	if(type == 'add'){
+		pageTitle = '添加用户';
+	}else if(type == 'edit'){
+		pageTitle = '名单管理';
+	}else if(type == 'view'){
+		pageTitle = '查看用户';
+	}
+	
+	
+	layer.open({
+        type: 1,
+        title: pageTitle,
+		maxmin: true, 
+		shadeClose: true, //点击遮罩关闭层
+        area : ['800px' , ''],
+        content:$('#service_style_add'),
+		btn:['提交','取消'],
+		yes:function(index,layero){	
+		 var num=0;
+		 var str="";
+     $(".sort_style_add input[type$='text']").each(function(n){
+          if(_this.val()=="")
+          {
+               
+			   layer.alert(str+=""+_this.attr("name")+"不能为空！\r\n",{
+                title: '提示框',				
+				icon:0,								
+          }); 
+		    num++;
+            return false;            
+          } 
+		 });
+		  if(num>0){  return false;}	 	
+          else{
+			  layer.alert('添加成功！',{
+               title: '提示框',				
+			icon:1,		
+			  });
+			   layer.close(index);	
+		  }		  		     				
+		}
+    });
+}
+/*用户-删除*/
+function service_del(obj,id){
+	layer.confirm('您确定删除该记录？',{icon:0,},function(index){
+		$(obj).parents("tr").remove();
+		layer.msg('已删除!',{icon:1,time:1000});
+	});
+}
+
+/*短信-删除*/
+function service_del2(obj,id){
+	layer.confirm('请选中一条记录？',{icon:0,},function(index){
+		$(obj).parents("tr").remove();
+		
+	});
+}
+
+</script>
+
+
+
